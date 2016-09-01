@@ -1,26 +1,25 @@
 {
-    "version": "0.1",
-    "name": "Metadata to FHIR Support Library ",
-    "description": "Simple FHIR DSTU2  metadata support library",
-    "launch_path": "index.html",
-    "developer": {
-        "name": "Carl Leitner <litlfred@gmail.com>",
-        "url": "http://github.com/litlfred/dhis-ssa-metadata-fhir"
-    },
-    "default_locale": "en",
-    "activities": {
-        "dhis": {
-            "href": "*"
-        }
-    },
-    "script-library": {
-	"dependencies" :  {
-            "MetadataFHIR.js" : [ 
-	         "dhis-ssa-core-services/node_modules/Errors.js" ,
-	         "dhis-ssa-core-services/node_modules/Metadata.js", 
-	         "dhis-ssa-core-services/node_modules/Metadata.js" 
-	    ]
-        }
-    }    
+  "version": "1.0.1",
+  "name": "Metadata to FHIR Support Library ",
+  "description": "Simple FHIR DSTU2  metadata support library",
+  "launch_path": "index.html",
+  "developer": {
+    "name": "Carl Leitner <litlfred@gmail.com>",
+    "url": "http://github.com/litlfred/dhis-ssa-metadata-fhir"
+  },
+  "default_locale": "en",
+  "activities": {
+    "dhis": {
+      "href": "*"
+    }
+  },
+  "script-library": {
+    "dependencies": {
+      "MetadataFHIR.js": [
+        "dhis-ssa-core-services/node_modules/Errors.js",
+        "dhis-ssa-core-services/node_modules/Metadata.js",
+        "dhis-ssa-core-services/node_modules/Metadata.js"
+      ]
+    }
+  }
 }
-
