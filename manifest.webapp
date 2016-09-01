@@ -15,7 +15,7 @@
   },
   "script-library": {
     "dependencies": {
-      "MetadataFHIR.js": [
+      "lib/MetadataFHIR.js": [
         "/apps/dhis-ssa-core-services/lib/Errors.js",
         "/apps/dhis-ssa-core-services/lib/SystemInfo.js",
         "/apps/dhis-ssa-core-services/lib/Metadata.js"
