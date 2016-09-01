@@ -2,7 +2,7 @@
     "name": "dhis-ssa-metadata-fhir",
     "dependencies": {
 	"dhis-ssa-core-services": ">= 1.0.0",
-    }
+    },
     "version": "1.0.0",
     "description": "",
     "main": "init.js",
