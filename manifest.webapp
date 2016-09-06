@@ -1,7 +1,7 @@
 {
   "version": "1.0.1",
   "name": "Metadata to FHIR Support Library ",
-  "description": "Simple FHIR DSTU2  metadata support library",
+  "description": "Simple FHIR DSTU2/STU3  metadata support library",
   "launch_path": "index.html",
   "developer": {
     "name": "Carl Leitner <litlfred@gmail.com>",
@@ -15,7 +15,12 @@
   },
   "script-library": {
     "dependencies": {
-      "lib/MetadataFHIR.js": [
+      "lib/MetadataFHIR_STU2.js": [
+        "/apps/dhis-ssa-core-services/lib/Errors.js",
+        "/apps/dhis-ssa-core-services/lib/SystemInfo.js",
+        "/apps/dhis-ssa-core-services/lib/Metadata.js"
+      ],
+      "lib/MetadataFHIR_STU3.js": [
         "/apps/dhis-ssa-core-services/lib/Errors.js",
         "/apps/dhis-ssa-core-services/lib/SystemInfo.js",
         "/apps/dhis-ssa-core-services/lib/Metadata.js"
